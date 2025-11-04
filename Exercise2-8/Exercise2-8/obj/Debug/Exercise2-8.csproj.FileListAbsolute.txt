@@ -1,0 +1,8 @@
+D:\c#\Exercise2-8\Exercise2-8\bin\Debug\Exercise2-8.exe.config
+D:\c#\Exercise2-8\Exercise2-8\bin\Debug\Exercise2-8.exe
+D:\c#\Exercise2-8\Exercise2-8\bin\Debug\Exercise2-8.pdb
+D:\c#\Exercise2-8\Exercise2-8\obj\Debug\Exercise2-8.csproj.AssemblyReference.cache
+D:\c#\Exercise2-8\Exercise2-8\obj\Debug\Exercise2-8.csproj.CoreCompileInputs.cache
+D:\c#\Exercise2-8\Exercise2-8\obj\Debug\Exercise2-8.exe
+D:\c#\Exercise2-8\Exercise2-8\obj\Debug\Exercise2-8.pdb
+D:\c#\Exercise2-8\Exercise2-8\obj\Debug\Exercise2-8.exe.config
