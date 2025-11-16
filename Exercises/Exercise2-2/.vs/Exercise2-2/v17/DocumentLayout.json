@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\c#\\Exercises\\Exercise2-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29BC535E-90EB-45DA-ABCC-FF1C71EC0747}|Exercise2-2\\Exercise2-2.csproj|d:\\c#\\exercises\\exercise2-2\\exercise2-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29BC535E-90EB-45DA-ABCC-FF1C71EC0747}|Exercise2-2\\Exercise2-2.csproj|solutionrelative:exercise2-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Exercises\\Exercise2-2\\Exercise2-2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Exercise2-2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "Exercise2-2\\Program.cs",
               "ToolTip": "D:\\c#\\Exercises\\Exercise2-2\\Exercise2-2\\Program.cs",
               "RelativeToolTip": "Exercise2-2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T06:36:45.054Z",
               "EditorCaption": ""
