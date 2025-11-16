@@ -1,8 +1,7 @@
-D:\c#\Exercise2-2\Exercise2-2\bin\Debug\Exercise2-2.exe.config
-D:\c#\Exercise2-2\Exercise2-2\bin\Debug\Exercise2-2.exe
-D:\c#\Exercise2-2\Exercise2-2\bin\Debug\Exercise2-2.pdb
-D:\c#\Exercise2-2\Exercise2-2\obj\Debug\Exercise2-2.csproj.AssemblyReference.cache
-D:\c#\Exercise2-2\Exercise2-2\obj\Debug\Exercise2-2.csproj.CoreCompileInputs.cache
-D:\c#\Exercise2-2\Exercise2-2\obj\Debug\Exercise2-2.exe
-D:\c#\Exercise2-2\Exercise2-2\obj\Debug\Exercise2-2.pdb
-D:\c#\Exercise2-2\Exercise2-2\obj\Debug\Exercise2-2.exe.config
+D:\c#\Exercises\Exercise2-2\Exercise2-2\bin\Debug\Exercise2-2.exe.config
+D:\c#\Exercises\Exercise2-2\Exercise2-2\bin\Debug\Exercise2-2.exe
+D:\c#\Exercises\Exercise2-2\Exercise2-2\bin\Debug\Exercise2-2.pdb
+D:\c#\Exercises\Exercise2-2\Exercise2-2\obj\Debug\Exercise2-2.csproj.AssemblyReference.cache
+D:\c#\Exercises\Exercise2-2\Exercise2-2\obj\Debug\Exercise2-2.csproj.CoreCompileInputs.cache
+D:\c#\Exercises\Exercise2-2\Exercise2-2\obj\Debug\Exercise2-2.exe
+D:\c#\Exercises\Exercise2-2\Exercise2-2\obj\Debug\Exercise2-2.pdb

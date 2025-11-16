@@ -10,15 +10,17 @@ namespace Exercise2_2
     {
         static void Main(string[] args)
         {
-            int num1 = 34;
-            int num2 = 45;
-            int holder = 0;
-            holder = num1;
-            num1 = num2;
-            num2 = holder;
-            Console.WriteLine($"num1:{num1} , num2:{num2}");
+            
+                int num1 = 34;
+                int num2 = 45;
+                int holder = 0;
+                holder = num1;
+                num1 = num2;
+                num2 = holder;
+                Console.WriteLine($"num1:{num1} , num2:{num2}");
 
-            Console.ReadKey();
+                Console.ReadKey();
         }
     }
 }
+

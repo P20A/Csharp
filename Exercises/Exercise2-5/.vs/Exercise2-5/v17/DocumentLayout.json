@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\c#\\Exercise2-5\\",
+  "WorkspaceRootPath": "D:\\c#\\Exercises\\Exercise2-5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2391D734-D4FF-4078-A9E3-FC03759CB2C9}|Exercise2-5\\Exercise2-5.csproj|d:\\c#\\exercise2-5\\exercise2-5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2391D734-D4FF-4078-A9E3-FC03759CB2C9}|Exercise2-5\\Exercise2-5.csproj|solutionrelative:exercise2-5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\c#\\Exercises\\Exercise2-5\\Exercise2-5\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Exercise2-5\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\c#\\Exercise2-5\\Exercise2-5\\Program.cs",
+              "DocumentMoniker": "D:\\c#\\Exercises\\Exercise2-5\\Exercise2-5\\Program.cs",
               "RelativeDocumentMoniker": "Exercise2-5\\Program.cs",
-              "ToolTip": "D:\\c#\\Exercise2-5\\Exercise2-5\\Program.cs",
+              "ToolTip": "D:\\c#\\Exercises\\Exercise2-5\\Exercise2-5\\Program.cs",
               "RelativeToolTip": "Exercise2-5\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
