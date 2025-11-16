@@ -1,0 +1,8 @@
+D:\c#\exam1\exam1\bin\Debug\exam1.exe.config
+D:\c#\exam1\exam1\bin\Debug\exam1.exe
+D:\c#\exam1\exam1\bin\Debug\exam1.pdb
+D:\c#\exam1\exam1\obj\Debug\exam1.csproj.AssemblyReference.cache
+D:\c#\exam1\exam1\obj\Debug\exam1.csproj.CoreCompileInputs.cache
+D:\c#\exam1\exam1\obj\Debug\exam1.exe
+D:\c#\exam1\exam1\obj\Debug\exam1.pdb
+D:\c#\exam1\exam1\obj\Debug\exam1.exe.config

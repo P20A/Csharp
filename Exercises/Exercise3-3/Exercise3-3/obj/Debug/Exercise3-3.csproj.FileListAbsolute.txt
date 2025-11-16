@@ -1,0 +1,7 @@
+D:\c#\Exercise3-3\Exercise3-3\bin\Debug\Exercise3-3.exe.config
+D:\c#\Exercise3-3\Exercise3-3\bin\Debug\Exercise3-3.exe
+D:\c#\Exercise3-3\Exercise3-3\bin\Debug\Exercise3-3.pdb
+D:\c#\Exercise3-3\Exercise3-3\obj\Debug\Exercise3-3.csproj.AssemblyReference.cache
+D:\c#\Exercise3-3\Exercise3-3\obj\Debug\Exercise3-3.csproj.CoreCompileInputs.cache
+D:\c#\Exercise3-3\Exercise3-3\obj\Debug\Exercise3-3.exe
+D:\c#\Exercise3-3\Exercise3-3\obj\Debug\Exercise3-3.pdb
