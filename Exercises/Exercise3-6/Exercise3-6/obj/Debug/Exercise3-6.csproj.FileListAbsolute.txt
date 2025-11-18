@@ -1,0 +1,7 @@
+D:\c#\Exercises\Exercise3-6\Exercise3-6\bin\Debug\Exercise3-6.exe.config
+D:\c#\Exercises\Exercise3-6\Exercise3-6\bin\Debug\Exercise3-6.exe
+D:\c#\Exercises\Exercise3-6\Exercise3-6\bin\Debug\Exercise3-6.pdb
+D:\c#\Exercises\Exercise3-6\Exercise3-6\obj\Debug\Exercise3-6.csproj.AssemblyReference.cache
+D:\c#\Exercises\Exercise3-6\Exercise3-6\obj\Debug\Exercise3-6.csproj.CoreCompileInputs.cache
+D:\c#\Exercises\Exercise3-6\Exercise3-6\obj\Debug\Exercise3-6.exe
+D:\c#\Exercises\Exercise3-6\Exercise3-6\obj\Debug\Exercise3-6.pdb
