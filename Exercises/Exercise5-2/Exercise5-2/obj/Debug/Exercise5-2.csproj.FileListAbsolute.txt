@@ -1,0 +1,8 @@
+D:\c#\Exercises\Exercise5-2\Exercise5-2\bin\Debug\Exercise5-2.exe.config
+D:\c#\Exercises\Exercise5-2\Exercise5-2\bin\Debug\Exercise5-2.exe
+D:\c#\Exercises\Exercise5-2\Exercise5-2\bin\Debug\Exercise5-2.pdb
+D:\c#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.csproj.AssemblyReference.cache
+D:\c#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.csproj.CoreCompileInputs.cache
+D:\c#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.exe
+D:\c#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.pdb
+D:\c#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.exe.config
