@@ -13,17 +13,13 @@ namespace Exercise5_2
             Console.WriteLine("enter your 8-bit number:");
             int x = int.Parse(Console.ReadLine());
             int temp = x;
-            string result = "";
+            double result = 0;
             for (int i = 7; i >= 0; i--)
             {
                 if (x >= Math.Pow(2, i))
                 {
                     x -= (int)Math.Pow(2, i);
-                    result += "1";
-                }
-                else
-                {
-                    result += "0";
+                    result += Math.Pow(10,i);
                 }
             }
             Console.WriteLine($"{temp} ==> {result}");

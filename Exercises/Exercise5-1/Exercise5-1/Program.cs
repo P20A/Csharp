@@ -10,21 +10,25 @@ namespace Exercise5_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("enter your 2 based number:");
-            int x = int.Parse(Console.ReadLine());
-            int temp = x;
-            double result = 0;
-            int counter = 0;
-            while (x != 0)
+            while (true)
             {
-                if (x % 2 == 1)
+                Console.WriteLine("enter your 2 based number:");
+                int x = int.Parse(Console.ReadLine());
+                int temp = x;
+                double result = 0;
+                int counter = 0;
+                while (x != 0)
                 {
-                    result += Math.Pow(2, counter);
+                    if (x % 2 == 1)
+                    {
+                        result += Math.Pow(2, counter);
+                    }
+                    x /= 10;
+                    counter++;
                 }
-                x /= 10;
-                counter++;
+                Console.WriteLine($"{temp} ==> {result}");
             }
-            Console.WriteLine($"{temp} ==> {result}");
+            
         }
     }
 }

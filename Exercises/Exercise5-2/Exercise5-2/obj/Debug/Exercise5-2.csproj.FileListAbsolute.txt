@@ -6,3 +6,10 @@ D:\c#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.csproj.CoreCompile
 D:\c#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.exe
 D:\c#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.pdb
 D:\c#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.exe.config
+F:\Developing\C#\Exercises\Exercise5-2\Exercise5-2\bin\Debug\Exercise5-2.exe.config
+F:\Developing\C#\Exercises\Exercise5-2\Exercise5-2\bin\Debug\Exercise5-2.exe
+F:\Developing\C#\Exercises\Exercise5-2\Exercise5-2\bin\Debug\Exercise5-2.pdb
+F:\Developing\C#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.csproj.AssemblyReference.cache
+F:\Developing\C#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.csproj.CoreCompileInputs.cache
+F:\Developing\C#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.exe
+F:\Developing\C#\Exercises\Exercise5-2\Exercise5-2\obj\Debug\Exercise5-2.pdb
