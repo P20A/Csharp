@@ -11,20 +11,24 @@ namespace Exercise4_7
         static void Main(string[] args)
         {
             Console.WriteLine("enter number:");
-            string num = Console.ReadLine();
+            int num = int.Parse(Console.ReadLine());
             int counter = 0;
-            for (int i = 0; i < num.Length ; i++)
+            int checker = num;
+
+            for (int i = 0; i < 10; i++)
             {
-                for (int j = 0; j < num.Length; j++)
+                while (checker != 0) 
                 {
-                    if (num[i] == num[j]) 
+                    if (checker%10 == i)
                         counter++;
-
+                    checker /= 10;
                 }
-                Console.WriteLine($"{num[i]} => {counter}");
+                if(counter >0)
+                    Console.WriteLine($"{i} ==> {counter}");
                 counter = 0;
-
+                checker = num;
             }
+            
         }
     }
 }
