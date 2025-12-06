@@ -5,3 +5,11 @@ F:\Developing\C#\Exercises\Exercise5-7\Exercise5-7\obj\Debug\Exercise5-7.csproj.
 F:\Developing\C#\Exercises\Exercise5-7\Exercise5-7\obj\Debug\Exercise5-7.csproj.CoreCompileInputs.cache
 F:\Developing\C#\Exercises\Exercise5-7\Exercise5-7\obj\Debug\Exercise5-7.exe
 F:\Developing\C#\Exercises\Exercise5-7\Exercise5-7\obj\Debug\Exercise5-7.pdb
+D:\c#\Exercises\Exercise5-7\Exercise5-7\bin\Debug\Exercise5-7.exe.config
+D:\c#\Exercises\Exercise5-7\Exercise5-7\bin\Debug\Exercise5-7.exe
+D:\c#\Exercises\Exercise5-7\Exercise5-7\bin\Debug\Exercise5-7.pdb
+D:\c#\Exercises\Exercise5-7\Exercise5-7\obj\Debug\Exercise5-7.csproj.AssemblyReference.cache
+D:\c#\Exercises\Exercise5-7\Exercise5-7\obj\Debug\Exercise5-7.exe.config
+D:\c#\Exercises\Exercise5-7\Exercise5-7\obj\Debug\Exercise5-7.csproj.CoreCompileInputs.cache
+D:\c#\Exercises\Exercise5-7\Exercise5-7\obj\Debug\Exercise5-7.exe
+D:\c#\Exercises\Exercise5-7\Exercise5-7\obj\Debug\Exercise5-7.pdb
