@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\c#\\Exercises\\Exercise10-2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98F0683B-DCED-4164-A65C-17DC67FF756F}|Exercise10-2\\Exercise10-2.csproj|d:\\c#\\exercises\\exercise10-2\\exercise10-2\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98F0683B-DCED-4164-A65C-17DC67FF756F}|Exercise10-2\\Exercise10-2.csproj|solutionrelative:exercise10-2\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98F0683B-DCED-4164-A65C-17DC67FF756F}|Exercise10-2\\Exercise10-2.csproj|D:\\c#\\Exercises\\Exercise10-2\\exercise10-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F0683B-DCED-4164-A65C-17DC67FF756F}|Exercise10-2\\Exercise10-2.csproj|solutionrelative:exercise10-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98F0683B-DCED-4164-A65C-17DC67FF756F}|Exercise10-2\\Exercise10-2.csproj|d:\\c#\\exercises\\exercise10-2\\exercise10-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98F0683B-DCED-4164-A65C-17DC67FF756F}|Exercise10-2\\Exercise10-2.csproj|solutionrelative:exercise10-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98F0683B-DCED-4164-A65C-17DC67FF756F}|Exercise10-2\\Exercise10-2.csproj|d:\\c#\\exercises\\exercise10-2\\exercise10-2\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98F0683B-DCED-4164-A65C-17DC67FF756F}|Exercise10-2\\Exercise10-2.csproj|solutionrelative:exercise10-2\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Author.cs",
               "DocumentMoniker": "D:\\c#\\Exercises\\Exercise10-2\\Exercise10-2\\Author.cs",
               "RelativeDocumentMoniker": "Exercise10-2\\Author.cs",
               "ToolTip": "D:\\c#\\Exercises\\Exercise10-2\\Exercise10-2\\Author.cs",
               "RelativeToolTip": "Exercise10-2\\Author.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCgAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAEwB0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T12:18:22.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\c#\\Exercises\\Exercise10-2\\Exercise10-2\\Program.cs",
               "RelativeDocumentMoniker": "Exercise10-2\\Program.cs",

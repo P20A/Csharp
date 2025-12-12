@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\Exercises\\Exercise10-7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F38349D-544E-4680-8613-FBC9C5A0741E}|Exercise10-7\\Exercise10-7.csproj|D:\\c#\\Exercises\\Exercise10-7\\exercise10-7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F38349D-544E-4680-8613-FBC9C5A0741E}|Exercise10-7\\Exercise10-7.csproj|solutionrelative:exercise10-7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F38349D-544E-4680-8613-FBC9C5A0741E}|Exercise10-7\\Exercise10-7.csproj|d:\\c#\\exercises\\exercise10-7\\exercise10-7\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F38349D-544E-4680-8613-FBC9C5A0741E}|Exercise10-7\\Exercise10-7.csproj|solutionrelative:exercise10-7\\invoiceitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoiceItem.cs",
+              "DocumentMoniker": "D:\\c#\\Exercises\\Exercise10-7\\Exercise10-7\\InvoiceItem.cs",
+              "RelativeDocumentMoniker": "Exercise10-7\\InvoiceItem.cs",
+              "ToolTip": "D:\\c#\\Exercises\\Exercise10-7\\Exercise10-7\\InvoiceItem.cs",
+              "RelativeToolTip": "Exercise10-7\\InvoiceItem.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAuwDcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T00:53:38.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\Exercises\\Exercise10-7\\Exercise10-7\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise10-7\\Program.cs",
+              "ToolTip": "D:\\c#\\Exercises\\Exercise10-7\\Exercise10-7\\Program.cs",
+              "RelativeToolTip": "Exercise10-7\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T00:51:39.065Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

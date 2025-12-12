@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\Exercises\\Exercise10-8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E05B9D8-E4FE-4AB0-B6C4-44EDA5E14ABC}|Exercise10-8\\Exercise10-8.csproj|d:\\c#\\exercises\\exercise10-8\\exercise10-8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E05B9D8-E4FE-4AB0-B6C4-44EDA5E14ABC}|Exercise10-8\\Exercise10-8.csproj|solutionrelative:exercise10-8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E05B9D8-E4FE-4AB0-B6C4-44EDA5E14ABC}|Exercise10-8\\Exercise10-8.csproj|d:\\c#\\exercises\\exercise10-8\\exercise10-8\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E05B9D8-E4FE-4AB0-B6C4-44EDA5E14ABC}|Exercise10-8\\Exercise10-8.csproj|solutionrelative:exercise10-8\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Date.cs",
+              "DocumentMoniker": "D:\\c#\\Exercises\\Exercise10-8\\Exercise10-8\\Date.cs",
+              "RelativeDocumentMoniker": "Exercise10-8\\Date.cs",
+              "ToolTip": "D:\\c#\\Exercises\\Exercise10-8\\Exercise10-8\\Date.cs",
+              "RelativeToolTip": "Exercise10-8\\Date.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:59:41.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\Exercises\\Exercise10-8\\Exercise10-8\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise10-8\\Program.cs",
+              "ToolTip": "D:\\c#\\Exercises\\Exercise10-8\\Exercise10-8\\Program.cs",
+              "RelativeToolTip": "Exercise10-8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T04:58:58.073Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

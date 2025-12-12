@@ -1,0 +1,7 @@
+D:\c#\Exercises\Exercise10-6\Exercise10-6\bin\Debug\Exercise10-6.exe.config
+D:\c#\Exercises\Exercise10-6\Exercise10-6\bin\Debug\Exercise10-6.exe
+D:\c#\Exercises\Exercise10-6\Exercise10-6\bin\Debug\Exercise10-6.pdb
+D:\c#\Exercises\Exercise10-6\Exercise10-6\obj\Debug\Exercise10-6.csproj.AssemblyReference.cache
+D:\c#\Exercises\Exercise10-6\Exercise10-6\obj\Debug\Exercise10-6.csproj.CoreCompileInputs.cache
+D:\c#\Exercises\Exercise10-6\Exercise10-6\obj\Debug\Exercise10-6.exe
+D:\c#\Exercises\Exercise10-6\Exercise10-6\obj\Debug\Exercise10-6.pdb

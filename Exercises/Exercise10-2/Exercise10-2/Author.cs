@@ -12,7 +12,6 @@ namespace Exercise10_2
         private string Name
         {
             get { return name; }
-            set { name = value; }
         }
         private string email;
         private string Email
@@ -26,7 +25,7 @@ namespace Exercise10_2
             get { return gender; }
             set
             {
-                if (gender == 'm' || gender == 'f')
+                if (value == 'm' || value == 'f')
                 {
                     gender = value;
                 }
@@ -40,11 +39,11 @@ namespace Exercise10_2
         {
             this.name = name;
             this.email = email;
-            this.gender = gender;
+            this.Gender = gender;
         }
         public string toString()
         {
-            return $"Name: {this.name}\nEmail: {this.email}\nGender: {this.gender}";
+            return $"Name: {this.Name}\nEmail: {this.Email}\nGender: {this.Gender}";
         }
     }
 }
