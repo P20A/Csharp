@@ -1,0 +1,7 @@
+F:\Developing\C#\Exercises\Exercise9-4\Exercise9-4\bin\Debug\Exercise9-4.exe.config
+F:\Developing\C#\Exercises\Exercise9-4\Exercise9-4\bin\Debug\Exercise9-4.exe
+F:\Developing\C#\Exercises\Exercise9-4\Exercise9-4\bin\Debug\Exercise9-4.pdb
+F:\Developing\C#\Exercises\Exercise9-4\Exercise9-4\obj\Debug\Exercise9-4.csproj.AssemblyReference.cache
+F:\Developing\C#\Exercises\Exercise9-4\Exercise9-4\obj\Debug\Exercise9-4.csproj.CoreCompileInputs.cache
+F:\Developing\C#\Exercises\Exercise9-4\Exercise9-4\obj\Debug\Exercise9-4.exe
+F:\Developing\C#\Exercises\Exercise9-4\Exercise9-4\obj\Debug\Exercise9-4.pdb

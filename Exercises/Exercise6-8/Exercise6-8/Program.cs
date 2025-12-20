@@ -48,7 +48,7 @@ namespace Exercise6_8
                         valid = true;
                         result = array[i];
                         array[i] = int.MinValue;
-                        break;
+                        //break;
                     }
                 }
                 if (valid)
