@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Developing\\C#\\Exercises\\Exercise12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7474DC4-A7BA-4FB7-B3A1-802802CA261F}|Exercise12\\Exercise12.csproj|F:\\Developing\\C#\\Exercises\\Exercise12\\exercise12\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E7474DC4-A7BA-4FB7-B3A1-802802CA261F}|Exercise12\\Exercise12.csproj|solutionrelative:exercise12\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7474DC4-A7BA-4FB7-B3A1-802802CA261F}|Exercise12\\Exercise12.csproj|f:\\developing\\c#\\exercises\\exercise12\\exercise12\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7474DC4-A7BA-4FB7-B3A1-802802CA261F}|Exercise12\\Exercise12.csproj|solutionrelative:exercise12\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7474DC4-A7BA-4FB7-B3A1-802802CA261F}|Exercise12\\Exercise12.csproj|F:\\Developing\\C#\\Exercises\\Exercise12\\exercise12\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7474DC4-A7BA-4FB7-B3A1-802802CA261F}|Exercise12\\Exercise12.csproj|solutionrelative:exercise12\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "F:\\Developing\\C#\\Exercises\\Exercise12\\Exercise12\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Exercise12\\Form1.Designer.cs",
+              "ToolTip": "F:\\Developing\\C#\\Exercises\\Exercise12\\Exercise12\\Form1.Designer.cs",
+              "RelativeToolTip": "Exercise12\\Form1.Designer.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAhwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T17:37:41.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\Developing\\C#\\Exercises\\Exercise12\\Exercise12\\Form1.cs",
+              "RelativeDocumentMoniker": "Exercise12\\Form1.cs",
+              "ToolTip": "F:\\Developing\\C#\\Exercises\\Exercise12\\Exercise12\\Form1.cs",
+              "RelativeToolTip": "Exercise12\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T16:36:26.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "F:\\Developing\\C#\\Exercises\\Exercise12\\Exercise12\\Form1.cs",
+              "RelativeDocumentMoniker": "Exercise12\\Form1.cs",
+              "ToolTip": "F:\\Developing\\C#\\Exercises\\Exercise12\\Exercise12\\Form1.cs [Design]",
+              "RelativeToolTip": "Exercise12\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T16:33:25.125Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

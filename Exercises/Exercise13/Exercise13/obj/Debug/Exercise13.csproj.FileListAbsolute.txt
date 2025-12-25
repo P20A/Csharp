@@ -1,0 +1,10 @@
+F:\Developing\C#\Exercises\Exercise13\Exercise13\bin\Debug\Exercise13.exe.config
+F:\Developing\C#\Exercises\Exercise13\Exercise13\bin\Debug\Exercise13.exe
+F:\Developing\C#\Exercises\Exercise13\Exercise13\bin\Debug\Exercise13.pdb
+F:\Developing\C#\Exercises\Exercise13\Exercise13\obj\Debug\Exercise13.csproj.AssemblyReference.cache
+F:\Developing\C#\Exercises\Exercise13\Exercise13\obj\Debug\Exercise13.Form1.resources
+F:\Developing\C#\Exercises\Exercise13\Exercise13\obj\Debug\Exercise13.Properties.Resources.resources
+F:\Developing\C#\Exercises\Exercise13\Exercise13\obj\Debug\Exercise13.csproj.GenerateResource.cache
+F:\Developing\C#\Exercises\Exercise13\Exercise13\obj\Debug\Exercise13.csproj.CoreCompileInputs.cache
+F:\Developing\C#\Exercises\Exercise13\Exercise13\obj\Debug\Exercise13.exe
+F:\Developing\C#\Exercises\Exercise13\Exercise13\obj\Debug\Exercise13.pdb
