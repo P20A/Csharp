@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{638A1075-5582-4405-8A8F-98DEDBBFA57C}|Exercise10-9\\Exercise10-9.csproj|solutionrelative:exercise10-9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{638A1075-5582-4405-8A8F-98DEDBBFA57C}|Exercise10-9\\Exercise10-9.csproj|d:\\c#\\exercises\\exercise10-9\\exercise10-9\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{638A1075-5582-4405-8A8F-98DEDBBFA57C}|Exercise10-9\\Exercise10-9.csproj|D:\\c#\\Exercises\\Exercise10-9\\exercise10-9\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{638A1075-5582-4405-8A8F-98DEDBBFA57C}|Exercise10-9\\Exercise10-9.csproj|solutionrelative:exercise10-9\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Exercise10-9\\Time.cs",
               "ToolTip": "D:\\c#\\Exercises\\Exercise10-9\\Exercise10-9\\Time.cs",
               "RelativeToolTip": "Exercise10-9\\Time.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwF8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T05:13:01.932Z",
               "EditorCaption": ""
@@ -41,7 +41,7 @@
               "RelativeDocumentMoniker": "Exercise10-9\\Program.cs",
               "ToolTip": "D:\\c#\\Exercises\\Exercise10-9\\Exercise10-9\\Program.cs",
               "RelativeToolTip": "Exercise10-9\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T05:12:42.581Z",
               "EditorCaption": ""

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\c#\\Exercises\\Exercise11-8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D16E858-26A6-40DA-B811-AFF7E1B49DA1}|Exercise11-8\\Exercise11-8.csproj|d:\\c#\\exercises\\exercise11-8\\exercise11-8\\mypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D16E858-26A6-40DA-B811-AFF7E1B49DA1}|Exercise11-8\\Exercise11-8.csproj|solutionrelative:exercise11-8\\mypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D16E858-26A6-40DA-B811-AFF7E1B49DA1}|Exercise11-8\\Exercise11-8.csproj|d:\\c#\\exercises\\exercise11-8\\exercise11-8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D16E858-26A6-40DA-B811-AFF7E1B49DA1}|Exercise11-8\\Exercise11-8.csproj|solutionrelative:exercise11-8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D16E858-26A6-40DA-B811-AFF7E1B49DA1}|Exercise11-8\\Exercise11-8.csproj|d:\\c#\\exercises\\exercise11-8\\exercise11-8\\mycircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D16E858-26A6-40DA-B811-AFF7E1B49DA1}|Exercise11-8\\Exercise11-8.csproj|solutionrelative:exercise11-8\\mycircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyCircle.cs",
+              "DocumentMoniker": "D:\\c#\\Exercises\\Exercise11-8\\Exercise11-8\\MyCircle.cs",
+              "RelativeDocumentMoniker": "Exercise11-8\\MyCircle.cs",
+              "ToolTip": "D:\\c#\\Exercises\\Exercise11-8\\Exercise11-8\\MyCircle.cs",
+              "RelativeToolTip": "Exercise11-8\\MyCircle.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwDsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:23:41.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyPoint.cs",
+              "DocumentMoniker": "D:\\c#\\Exercises\\Exercise11-8\\Exercise11-8\\MyPoint.cs",
+              "RelativeDocumentMoniker": "Exercise11-8\\MyPoint.cs",
+              "ToolTip": "D:\\c#\\Exercises\\Exercise11-8\\Exercise11-8\\MyPoint.cs",
+              "RelativeToolTip": "Exercise11-8\\MyPoint.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:22:43.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\c#\\Exercises\\Exercise11-8\\Exercise11-8\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise11-8\\Program.cs",
+              "ToolTip": "D:\\c#\\Exercises\\Exercise11-8\\Exercise11-8\\Program.cs",
+              "RelativeToolTip": "Exercise11-8\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T10:22:22.86Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
