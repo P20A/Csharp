@@ -13,7 +13,7 @@ namespace Project
     internal class Game
     {
         private Square mainSquare;
-        private int col = 6, row = 6;
+        private int col , row ;
         private Square[,] squares;
         private Form1 form;
         private int squareWidth;
@@ -21,14 +21,13 @@ namespace Project
         private int originY;
         private Color originColor;
         private Color[] colors = new Color[5];
+        private int level = 1;
+        private int score = 0;
  
         public Game(Form1 form,int width =20)
         {
             this.form = form;
             this.squareWidth = width;
-            originX = (form.Width / 2) - (col / 2) * squareWidth;
-            originY = (form.Height / 2) - (row / 2) * squareWidth;
-            squares = new Square[row, col];
             colors[0] = Color.Blue;
             colors[1] = Color.Red;
             colors[2] = Color.Yellow;
@@ -37,10 +36,10 @@ namespace Project
         }
         public void generator()
         {
-            //levelDesign();
-            //originX = (form.Width / 2) - (col / 2) * squareWidth;
-            //originY = (form.Height / 2) - (row / 2) * squareWidth;
-            //squares = new Square[row, col];
+            levelDesign();
+            originX = (form.Width / 2) - (col / 2) * squareWidth;
+            originY = (form.Height / 2) - (row / 2) * squareWidth;
+            squares = new Square[row, col];
             Random random = new Random();
             for (int i = 0; i < squares.GetLength(0); i++)
             {
@@ -54,37 +53,33 @@ namespace Project
             mainSquare = new Square(squareWidth, colors[random.Next(colors.Length)], form);
             mainSquare.showSquare(originX - squareWidth, originY);
             originColor = mainSquare.getColor();
+            form.levelSetter(level);
+            form.scoreSetter(score);
         }
-        //public void levelDesign()
-        //{
-        //    switch (level)
-        //    {
-        //        case 1:
-        //            squareWidth = 100;
-        //            row = 3; col = 3;
-        //            break;
-        //        case 2:
-        //            squareWidth = 75;
-        //            row = 4; col = 4;
-        //            break;
-        //        case 3:
-        //            squareWidth = 50;
-        //            row = 6; col = 6;
-        //            break;
-        //        case 4:
-        //            squareWidth = 37;
-        //            row = 8; col = 8;
-        //            break;
-        //        case 5:
-        //            squareWidth = 27;
-        //            row = 11; col = 11;
-        //            break;
-        //        case 6:
-        //            squareWidth = 20;
-        //            row = 15; col = 15;
-        //            break;
-        //    }
-        //}
+        public void levelDesign()
+        {
+            switch (level)
+            {
+                case 1:
+                    row = 3; col = 3;
+                    break;
+                case 2:
+                    row = 4; col = 4;
+                    break;
+                case 3:
+                    row = 6; col = 6;
+                    break;
+                case 4:
+                    row = 8; col = 8;
+                    break;
+                case 5:
+                    row = 11; col = 11;
+                    break;
+                case 6:
+                    row = 15; col = 15;
+                    break;
+            }
+        }
         public void move(Dir dir)
         {
             int startX = originX - squareWidth;
@@ -183,7 +178,6 @@ namespace Project
                     break;
             }
             checkIfSync();
-            form.Text = $"{row}, {col}";
         }
         public void checkIfSync()
         {
@@ -197,7 +191,7 @@ namespace Project
                     }
                 }
                 mainSquare.removeSquare();
-                //nextLevel();
+                nextLevel();
                 return;
             }
             else
@@ -319,19 +313,20 @@ namespace Project
                     break;
             }
         }
-        //public void nextLevel()
-        //{
-        //    if (level < 6)
-        //    {
-        //        level++;
-        //        generator();
-        //        MessageBox.Show("next LEVEL!!!!!");
-        //    }
-        //    else
-        //    {
-        //        MessageBox.Show("you've WON!!!!!!");
-        //    }
-        //}
+        public void nextLevel()
+        {
+            if (level < 6)
+            {
+                level++;
+                generator();
+                MessageBox.Show("next LEVEL!!!!!");
+            }
+            else
+            {
+                form.highestScoreSetter(score);
+                MessageBox.Show("you've WON!!!!!!");
+            }
+        }
     }
     class Square
     {
