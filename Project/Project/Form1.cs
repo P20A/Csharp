@@ -24,8 +24,6 @@ namespace Project
             this.Text = "This game is made by parsa ataei";
             game = new Game(this);
             game.generator();
-            highestScoreSetter(10);
-            this.highestScoreIndecator.Text = $"Highest score: {highestscore}";
         }
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
@@ -49,9 +47,10 @@ namespace Project
         {
             this.levelIndecator.Text = $"Level: {i}";
         }
-        public void scoreSetter(int score)
+        public int scoreSetter(int score)
         {
             this.inGameScore.Text = $"Score: {score}";
+            return score;
         }
         public void highestScoreSetter(int score)
         {
@@ -64,12 +63,12 @@ namespace Project
             }
             if (newHighestScore)
             {
-                TextWriter writeHighestScore = new StreamWriter("highestScore.txt",true);
+                StreamWriter writeHighestScore = new StreamWriter("highestScore.txt",false);
                 writeHighestScore.WriteLine(score);
+                writeHighestScore.Close();
                 highestscore = score;
             }
-
-            
+            this.highestScoreIndecator.Text = $"Highest score: {highestscore}";
         }
     }
     enum Dir

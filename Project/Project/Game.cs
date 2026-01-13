@@ -33,6 +33,7 @@ namespace Project
             colors[2] = Color.Yellow;
             colors[3] = Color.Green;
             colors[4] = Color.Aqua;
+            form.highestScoreSetter(score);
         }
         public void generator()
         {
@@ -244,6 +245,7 @@ namespace Project
                         squares[i, k - 1].setColor(squares[i, k].getColor());
                 }
             }
+            score = form.scoreSetter(score + (col * level));
             col--;
             System.Threading.Thread.Sleep(1000);
         }
@@ -259,6 +261,7 @@ namespace Project
                         squares[k - 1, j].setColor(squares[k, j].getColor());
                 }
             }
+            score = form.scoreSetter(score + (row * level));
             row--;
             System.Threading.Thread.Sleep(1000);
         }
@@ -315,7 +318,7 @@ namespace Project
         }
         public void nextLevel()
         {
-            if (level < 6)
+            if (level < 5)
             {
                 level++;
                 generator();
