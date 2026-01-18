@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "F:\\Developing\\C#\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|f:\\developing\\c#\\project\\project\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|F:\\Developing\\C#\\Project\\project\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|solutionrelative:project\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|solutionrelative:project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|F:\\Developing\\C#\\Project\\project\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|solutionrelative:project\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|f:\\developing\\c#\\project\\project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|solutionrelative:project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|F:\\Developing\\C#\\Project\\project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|solutionrelative:project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|F:\\Developing\\C#\\Project\\project\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|solutionrelative:project\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,23 +36,10 @@
               "RelativeDocumentMoniker": "Project\\Game.cs",
               "ToolTip": "F:\\Developing\\C#\\Project\\Project\\Game.cs",
               "RelativeToolTip": "Project\\Game.cs",
-              "ViewState": "AgIAAD0BAAAAAAAAAAAkwEABAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwBAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T17:05:04.651Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "F:\\Developing\\C#\\Project\\Project\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Project\\Form1.Designer.cs",
-              "ToolTip": "F:\\Developing\\C#\\Project\\Project\\Form1.Designer.cs",
-              "RelativeToolTip": "Project\\Form1.Designer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wDsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T13:57:51.596Z",
               "EditorCaption": ""
             },
             {
@@ -63,14 +50,14 @@
               "RelativeDocumentMoniker": "Project\\Form1.cs",
               "ToolTip": "F:\\Developing\\C#\\Project\\Project\\Form1.cs",
               "RelativeToolTip": "Project\\Form1.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAUwDQAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T17:33:51.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "F:\\Developing\\C#\\Project\\Project\\Form1.cs",
               "RelativeDocumentMoniker": "Project\\Form1.cs",
@@ -79,6 +66,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T17:03:36.677Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "F:\\Developing\\C#\\Project\\Project\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Project\\Form1.Designer.cs",
+              "ToolTip": "F:\\Developing\\C#\\Project\\Project\\Form1.Designer.cs",
+              "RelativeToolTip": "Project\\Form1.Designer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwDsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T13:57:51.596Z",
+              "EditorCaption": ""
             }
           ]
         }

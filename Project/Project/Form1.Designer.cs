@@ -38,7 +38,7 @@
             this.inGameScore.Font = new System.Drawing.Font("Magneto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.inGameScore.Location = new System.Drawing.Point(7, 40);
             this.inGameScore.Name = "inGameScore";
-            this.inGameScore.Size = new System.Drawing.Size(100, 23);
+            this.inGameScore.Size = new System.Drawing.Size(145, 23);
             this.inGameScore.TabIndex = 4;
             // 
             // levelIndecator
@@ -56,7 +56,7 @@
             this.highestScoreIndecator.Font = new System.Drawing.Font("Magneto", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.highestScoreIndecator.Location = new System.Drawing.Point(6, 7);
             this.highestScoreIndecator.Name = "highestScoreIndecator";
-            this.highestScoreIndecator.Size = new System.Drawing.Size(157, 20);
+            this.highestScoreIndecator.Size = new System.Drawing.Size(0, 20);
             this.highestScoreIndecator.TabIndex = 2;
             // 
             // Form1

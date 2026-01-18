@@ -7,7 +7,6 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
 namespace Project
 {
     internal class Game
@@ -335,13 +334,11 @@ namespace Project
     {
         private int width;
         public Panel squarePanel;
-        private Color squareColor;
         private Form1 form;
 
         public Square(int w, Color SC, Form1 form)
         {
             this.width = w;
-            this.squareColor = SC;
             this.form = form;
             this.squarePanel = new Panel();
             this.squarePanel.BackColor = SC;
