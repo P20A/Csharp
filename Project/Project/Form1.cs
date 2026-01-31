@@ -54,8 +54,14 @@ namespace Project
         }
         public void highestScoreSetter(int score)
         {
+            string path = "highestScore.txt";
+            if (!File.Exists(path))
+            {
+                File.Create(path).Close();
+
+            }
             bool newHighestScore = false;
-            using (StreamReader readHighestScore = new StreamReader("highestScore.txt", true))
+            using (StreamReader readHighestScore = new StreamReader(path, true))
             {
                 highestscore = int.Parse(readHighestScore.ReadLine());
                 if (score > highestscore)
@@ -63,7 +69,7 @@ namespace Project
             }
             if (newHighestScore)
             {
-                StreamWriter writeHighestScore = new StreamWriter("highestScore.txt",false);
+                StreamWriter writeHighestScore = new StreamWriter(path, false);
                 writeHighestScore.WriteLine(score);
                 writeHighestScore.Close();
                 highestscore = score;
