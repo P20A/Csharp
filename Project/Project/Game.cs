@@ -209,6 +209,7 @@ namespace Project
                     if (count == row)
                     {
                         removeRow(j);
+                        
                         checkIfSync();
                     }
                 }
@@ -224,6 +225,7 @@ namespace Project
                     if (count == col)
                     {
                         removeCol(i);
+                        
                         checkIfSync();
                     }
                 }
@@ -231,7 +233,6 @@ namespace Project
         }
         public void removeRow(int j)
         {
-            
             for (int k = j + 1; k <= col ; k++)
             {
                 for (int i = 0; i < row; i++)
@@ -246,6 +247,8 @@ namespace Project
             }
             score = form.scoreSetter(score + (col * level));
             col--;
+            if (mainSquare.getY() > originY + (col * squareWidth))
+                mainSquare.showSquare(mainSquare.getX(), originY + (col * squareWidth));
             System.Threading.Thread.Sleep(1000);
         }
         public void removeCol(int i)
@@ -262,6 +265,8 @@ namespace Project
             }
             score = form.scoreSetter(score + (row * level));
             row--;
+            if (mainSquare.getX() > originX + (row * squareWidth))
+                mainSquare.showSquare(originX + (row * squareWidth), mainSquare.getY());
             System.Threading.Thread.Sleep(1000);
         }
         public void moveBlocks(int i, Dir dir)
@@ -321,6 +326,7 @@ namespace Project
             {
                 level++;
                 generator();
+                form.highestScoreSetter(score);
                 MessageBox.Show("next LEVEL!!!!!");
             }
             else

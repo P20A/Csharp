@@ -58,6 +58,9 @@ namespace Project
             if (!File.Exists(path))
             {
                 File.Create(path).Close();
+                StreamWriter writeHighestScore = new StreamWriter(path, false);
+                writeHighestScore.WriteLine(0);
+                writeHighestScore.Close();
 
             }
             bool newHighestScore = false;
