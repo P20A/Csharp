@@ -58,27 +58,37 @@ namespace Project
         }
         public void levelDesign()
         {
-            switch (level)
+            if (level < 14)
             {
-                case 1:
-                    row = 3; col = 3;
-                    break;
-                case 2:
-                    row = 4; col = 4;
-                    break;
-                case 3:
-                    row = 6; col = 6;
-                    break;
-                case 4:
-                    row = 8; col = 8;
-                    break;
-                case 5:
-                    row = 11; col = 11;
-                    break;
-                case 6:
-                    row = 15; col = 15;
-                    break;
+                row = level + 2;
+                col = level + 2;
             }
+            else
+            {
+                row = 16;
+                col = 16;
+            }
+            //switch (level)
+            //{
+            //    case 1:
+            //        row = 3; col = 3;
+            //        break;
+            //    case 2:
+            //        row = 4; col = 4;
+            //        break;
+            //    case 3:
+            //        row = 5; col = 5;
+            //        break;
+            //    case 4:
+            //        row = 6; col = 6;
+            //        break;
+            //    case 5:
+            //        row = 7; col = 7;
+            //        break;
+            //    case 6:
+            //        row = 8; col = 8;
+            //        break;
+            //}
         }
         public void move(Dir dir)
         {
@@ -322,18 +332,10 @@ namespace Project
         }
         public void nextLevel()
         {
-            if (level < 5)
-            {
-                level++;
-                generator();
-                form.highestScoreSetter(score);
-                MessageBox.Show("next LEVEL!!!!!");
-            }
-            else
-            {
-                form.highestScoreSetter(score);
-                MessageBox.Show("you've WON!!!!!!");
-            }
+            level++;
+            generator();
+            form.highestScoreSetter(score);
+            MessageBox.Show("next LEVEL!!!!!");
         }
     }
     class Square

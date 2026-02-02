@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "F:\\Developing\\C#\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|F:\\Developing\\C#\\Project\\project\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|f:\\developing\\c#\\project\\project\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|solutionrelative:project\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|f:\\developing\\c#\\project\\project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|F:\\Developing\\C#\\Project\\project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A259185C-EFB3-4BCC-8C18-3598D49A3B36}|Project\\Project.csproj|solutionrelative:project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Project\\Game.cs",
               "ToolTip": "F:\\Developing\\C#\\Project\\Project\\Game.cs",
               "RelativeToolTip": "Project\\Game.cs",
-              "ViewState": "AgIAAC0BAAAAAAAAAAAAAEYBAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowEgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T17:05:04.651Z",
               "IsPinned": true,
@@ -52,8 +52,7 @@
               "RelativeToolTip": "Project\\Form1.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowBQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T17:33:51.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-08T17:33:51.177Z"
             },
             {
               "$type": "Document",
