@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -22,23 +23,42 @@ namespace Project
         private Color[] colors = new Color[5];
         private int level = 1;
         private int score = 0;
- 
-        public Game(Form1 form,int width =20)
+        private bool endless;
+        private bool multiplayer = false;
+        public int player;
+        public Game(Form1 form, bool endless, int player = 0, int width = 20)
         {
             this.form = form;
             this.squareWidth = width;
+            this.endless = endless;
+            this.player = player;
             colors[0] = Color.Blue;
             colors[1] = Color.Red;
             colors[2] = Color.Yellow;
             colors[3] = Color.Green;
             colors[4] = Color.Aqua;
-            form.highestScoreSetter(score);
+            switch (player)
+            {
+                case 0:
+                    originX = (form.Width / 2) - (col / 2) * squareWidth;
+                    originY = (form.Height / 2) - (row / 2) * squareWidth;
+                    form.highestScoreSetter(score);
+                    break;
+                case 1:
+                    originX = ((form.Width / 2) - (col / 2) * squareWidth) + 50;
+                    originY = (form.Height / 2) - (row / 2) * squareWidth;
+                    multiplayer = true;
+                    break;
+                case 2:
+                    originX = ((form.Width / 2) - (col / 2) * squareWidth) - 150;
+                    originY = (form.Height / 2) - (row / 2) * squareWidth;
+                    multiplayer = true;
+                    break;
+            }
         }
         public void generator()
         {
             levelDesign();
-            originX = (form.Width / 2) - (col / 2) * squareWidth;
-            originY = (form.Height / 2) - (row / 2) * squareWidth;
             squares = new Square[row, col];
             Random random = new Random();
             for (int i = 0; i < squares.GetLength(0); i++)
@@ -53,42 +73,60 @@ namespace Project
             mainSquare = new Square(squareWidth, colors[random.Next(colors.Length)], form);
             mainSquare.showSquare(originX - squareWidth, originY);
             originColor = mainSquare.getColor();
-            form.levelSetter(level);
-            form.scoreSetter(score);
+            if (!multiplayer)
+            {
+                form.levelSetter(level);
+                form.scoreSetter(score);
+            }
+
+
         }
         public void levelDesign()
         {
-            if (level < 14)
+            if (multiplayer)
             {
-                row = level + 2;
-                col = level + 2;
+                row = 5; col = 5;
             }
             else
             {
-                row = 16;
-                col = 16;
+                if (endless)
+                {
+                    if (level < 14)
+                    {
+                        row = level + 2;
+                        col = level + 2;
+                    }
+                    else
+                    {
+                        row = 16;
+                        col = 16;
+                    }
+                }
+                else
+                {
+                    switch (level)
+                    {
+                        case 1:
+                            row = 3; col = 3;
+                            break;
+                        case 2:
+                            row = 4; col = 4;
+                            break;
+                        case 3:
+                            row = 5; col = 5;
+                            break;
+                        case 4:
+                            row = 6; col = 6;
+                            break;
+                        case 5:
+                            row = 7; col = 7;
+                            break;
+                        case 6:
+                            row = 8; col = 8;
+                            break;
+                    }
+                }
             }
-            //switch (level)
-            //{
-            //    case 1:
-            //        row = 3; col = 3;
-            //        break;
-            //    case 2:
-            //        row = 4; col = 4;
-            //        break;
-            //    case 3:
-            //        row = 5; col = 5;
-            //        break;
-            //    case 4:
-            //        row = 6; col = 6;
-            //        break;
-            //    case 5:
-            //        row = 7; col = 7;
-            //        break;
-            //    case 6:
-            //        row = 8; col = 8;
-            //        break;
-            //}
         }
         public void move(Dir dir)
         {
@@ -201,7 +239,15 @@ namespace Project
                     }
                 }
                 mainSquare.removeSquare();
-                nextLevel();
+                if (multiplayer)
+                {
+                    form.winner(player);
+                }
+                else
+                {
+                    nextLevel();
+                }
+
                 return;
             }
             else
@@ -219,7 +265,6 @@ namespace Project
                     if (count == row)
                     {
                         removeRow(j);
-                        
                         checkIfSync();
                     }
                 }
@@ -235,7 +280,6 @@ namespace Project
                     if (count == col)
                     {
                         removeCol(i);
-                        
                         checkIfSync();
                     }
                 }
@@ -255,7 +299,8 @@ namespace Project
                         squares[i, k - 1].setColor(squares[i, k].getColor());
                 }
             }
-            score = form.scoreSetter(score + (col * level));
+            if(!multiplayer)
+                score = form.scoreSetter(score + (col * level));
             col--;
             if (mainSquare.getY() > originY + (col * squareWidth))
                 mainSquare.showSquare(mainSquare.getX(), originY + (col * squareWidth));
@@ -273,7 +318,8 @@ namespace Project
                         squares[k - 1, j].setColor(squares[k, j].getColor());
                 }
             }
-            score = form.scoreSetter(score + (row * level));
+            if (!multiplayer)
+                score = form.scoreSetter(score + (row * level));
             row--;
             if (mainSquare.getX() > originX + (row * squareWidth))
                 mainSquare.showSquare(originX + (row * squareWidth), mainSquare.getY());
@@ -336,6 +382,30 @@ namespace Project
             generator();
             form.highestScoreSetter(score);
             MessageBox.Show("next LEVEL!!!!!");
+        }
+        public void endGame()
+        {
+            for (int i = 0; i < squares.GetLength(0); i++)
+            {
+                for (int j = 0; j < squares.GetLength(1); j++)
+                {
+                    squares[i, j].removeSquare();
+                }
+            }
+            mainSquare.removeSquare();
+        }
+        public Square[,] getSquares()
+        {
+            return squares;
+        }
+        public Square getMainSquare()
+        {
+            return mainSquare;
+        }
+        public void setOriginColor(Color color)
+        {
+            originColor = color;
+            mainSquare.setColor(originColor);
         }
     }
     class Square
