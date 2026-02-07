@@ -26,22 +26,24 @@ namespace Project
         private bool endless;
         private bool multiplayer = false;
         public int player;
-        public Game(Form1 form, bool endless, int player = 0, int width = 20)
+        private int set;
+        public Game(Form1 form, bool endless, int set = 0, int player = 0, int width = 30)
         {
             this.form = form;
             this.squareWidth = width;
             this.endless = endless;
             this.player = player;
+            this.set = set;
             colors[0] = Color.Blue;
             colors[1] = Color.Red;
-            colors[2] = Color.Yellow;
+            colors[2] = Color.Orange;
             colors[3] = Color.Green;
-            colors[4] = Color.Aqua;
+            colors[4] = Color.Purple;
             switch (player)
             {
                 case 0:
-                    originX = (form.Width / 2) - (col / 2) * squareWidth;
-                    originY = (form.Height / 2) - (row / 2) * squareWidth;
+                    originX = (form.Width / 2) - (col / 2) * squareWidth - 50;
+                    originY = (form.Height / 2) - (row / 2) * squareWidth - 50;
                     form.highestScoreSetter(score);
                     break;
                 case 1:
@@ -50,7 +52,7 @@ namespace Project
                     multiplayer = true;
                     break;
                 case 2:
-                    originX = ((form.Width / 2) - (col / 2) * squareWidth) - 150;
+                    originX = ((form.Width / 2) - (col / 2) * squareWidth) - 200;
                     originY = (form.Height / 2) - (row / 2) * squareWidth;
                     multiplayer = true;
                     break;
@@ -65,12 +67,12 @@ namespace Project
             {
                 for (int j = 0; j < squares.GetLength(1); j++)
                 {
-                    Square temp = new Square(squareWidth, colors[random.Next(colors.Length)], form);
+                    Square temp = new Square(squareWidth, colors[random.Next(colors.Length)], form,set);
                     temp.showSquare(originX + i * squareWidth,originY + j * squareWidth);
                     squares[i, j] = temp;
                 }
             }
-            mainSquare = new Square(squareWidth, colors[random.Next(colors.Length)], form);
+            mainSquare = new Square(squareWidth, colors[random.Next(colors.Length)], form,set);
             mainSquare.showSquare(originX - squareWidth, originY);
             originColor = mainSquare.getColor();
             if (!multiplayer)
@@ -95,6 +97,8 @@ namespace Project
                     {
                         row = level + 2;
                         col = level + 2;
+                        originX -= 10;
+                        originY -= 10;
                     }
                     else
                     {
@@ -229,7 +233,24 @@ namespace Project
         }
         public void checkIfSync()
         {
-            if(row <= 1 || col <= 1)
+            int colorCount = 0;
+            if (row == 2 && col == 2)
+            {
+                for (int i = 0; i < squares.GetLength(0); i++)
+                {
+                    for (int j = 0; j < squares.GetLength(1); j++)
+                    {
+                        if (mainSquare.getColor() != squares[i, j].getColor())
+                            colorCount++;
+                    }
+                }
+                if (colorCount == 4)
+                {
+                    row = 1; col = 1;
+                    checkIfSync();
+                }
+            }
+            if (row <= 1 || col <= 1)
             {
                 for(int i = 0;i < squares.GetLength(0); i++)
                 {
@@ -304,6 +325,7 @@ namespace Project
             col--;
             if (mainSquare.getY() > originY + (col * squareWidth))
                 mainSquare.showSquare(mainSquare.getX(), originY + (col * squareWidth));
+            form.Update();
             System.Threading.Thread.Sleep(1000);
         }
         public void removeCol(int i)
@@ -323,6 +345,7 @@ namespace Project
             row--;
             if (mainSquare.getX() > originX + (row * squareWidth))
                 mainSquare.showSquare(originX + (row * squareWidth), mainSquare.getY());
+            form.Update();
             System.Threading.Thread.Sleep(1000);
         }
         public void moveBlocks(int i, Dir dir)
@@ -380,11 +403,11 @@ namespace Project
         {
             level++;
             generator();
-            form.highestScoreSetter(score);
             MessageBox.Show("next LEVEL!!!!!");
         }
         public void endGame()
         {
+            form.highestScoreSetter(score);
             for (int i = 0; i < squares.GetLength(0); i++)
             {
                 for (int j = 0; j < squares.GetLength(1); j++)
@@ -411,42 +434,144 @@ namespace Project
     class Square
     {
         private int width;
-        public Panel squarePanel;
+        //public Panel squarePanel;
+        private PictureBox squareBox;
+        Color squareColor;
         private Form1 form;
+        int set;
 
-        public Square(int w, Color SC, Form1 form)
+        public Square(int w, Color SC, Form1 form,int set)
         {
             this.width = w;
             this.form = form;
-            this.squarePanel = new Panel();
-            this.squarePanel.BackColor = SC;
-            this.squarePanel.Size = new Size(width, width);
-            this.squarePanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.form.Controls.Add(squarePanel);
+            this.set = set;
+            //this.squarePanel = new Panel();
+            //this.squarePanel.BackColor = SC;
+            //this.squarePanel.Size = new Size(width, width);
+            //this.squarePanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            squareColor = SC;
+            squareBox = new PictureBox();
+            squareBox.Size = new Size(width, width);
+            squareBox.SizeMode = PictureBoxSizeMode.StretchImage;
+            setColor(squareColor);
+            this.form.Controls.Add(squareBox);
         }
         public void showSquare(int x, int y)
         {
-            this.squarePanel.Location = new Point(x, y);
+            //this.squarePanel.Location = new Point(x, y);
+            this.squareBox.Location = new Point(x, y);
         }
         public int getX()
         {
-            return this.squarePanel.Location.X;
+            //return this.squarePanel.Location.X;
+            return this.squareBox.Location.X;
         }
         public int getY()
         {
-            return this.squarePanel.Location.Y;
+            //return this.squarePanel.Location.Y;
+            return this.squareBox.Location.Y;
         }
         public Color getColor()
         {
-            return this.squarePanel.BackColor;
+            //return this.squarePanel.BackColor;
+            return squareColor;
         }
         public void setColor(Color color)
         {
-            this.squarePanel.BackColor = color;
+            //this.squarePanel.BackColor = color;
+            switch (color.Name)
+            {
+                case "Red":
+                    switch (set)
+                    {
+                        case 1:
+                            squareBox.Image = Properties.Resources.redSet1;
+                            squareColor = color;
+                            break;
+                        case 2:
+                            squareBox.Image = Properties.Resources.redSet2;
+                            squareColor = color;
+                            break;
+                        case 3:
+                            squareBox.Image = Properties.Resources.redSet3;
+                            squareColor = color;
+                            break;
+                    }
+                    break;
+                case "Blue":
+                    switch (set)
+                    {
+                        case 1:
+                            squareBox.Image = Properties.Resources.blueSet1;
+                            squareColor = color;
+                            break;
+                        case 2:
+                            squareBox.Image = Properties.Resources.blueSet2;
+                            squareColor = color;
+                            break;
+                        case 3:
+                            squareBox.Image = Properties.Resources.blueSet3;
+                            squareColor = color;
+                            break;
+                    }
+                    break;
+                case "Orange":
+                    switch (set)
+                    {
+                        case 1:
+                            squareBox.Image = Properties.Resources.orangeSet1;
+                            squareColor = color;
+                            break;
+                        case 2:
+                            squareBox.Image = Properties.Resources.orangeSet2;
+                            squareColor = color;
+                            break;
+                        case 3:
+                            squareBox.Image = Properties.Resources.orangeSet3;
+                            squareColor = color;
+                            break;
+                    }
+                    break;
+                case "Green":
+                    switch (set)
+                    {
+                        case 1:
+                            squareBox.Image = Properties.Resources.greenSet1;
+                            squareColor = color;
+                            break;
+                        case 2:
+                            squareBox.Image = Properties.Resources.greenSet2;
+                            squareColor = color;
+                            break;
+                        case 3:
+                            squareBox.Image = Properties.Resources.greenSet3;
+                            squareColor = color;
+                            break;
+                    }
+                    break;
+                case "Purple":
+                    switch (set)
+                    {
+                        case 1:
+                            squareBox.Image = Properties.Resources.purpleSet1;
+                            squareColor = color;
+                            break;
+                        case 2:
+                            squareBox.Image = Properties.Resources.purpleSet2;
+                            squareColor = color;
+                            break;
+                        case 3:
+                            squareBox.Image = Properties.Resources.purpleSet3;
+                            squareColor = color;
+                            break;
+                    }
+                    break;
+            }
         }
         public void removeSquare()
         {
-            this.squarePanel.Dispose();
+            //this.squarePanel.Dispose();
+            this.squareBox.Dispose();
         }
     } 
 }

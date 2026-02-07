@@ -1,0 +1,10 @@
+F:\Developing\C#\Project\Project\bin\Release\Project.exe.config
+F:\Developing\C#\Project\Project\bin\Release\Project.exe
+F:\Developing\C#\Project\Project\bin\Release\Project.pdb
+F:\Developing\C#\Project\Project\obj\Release\Project.csproj.AssemblyReference.cache
+F:\Developing\C#\Project\Project\obj\Release\Project.Form1.resources
+F:\Developing\C#\Project\Project\obj\Release\Project.Properties.Resources.resources
+F:\Developing\C#\Project\Project\obj\Release\Project.csproj.GenerateResource.cache
+F:\Developing\C#\Project\Project\obj\Release\Project.csproj.CoreCompileInputs.cache
+F:\Developing\C#\Project\Project\obj\Release\Project.exe
+F:\Developing\C#\Project\Project\obj\Release\Project.pdb
